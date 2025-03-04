@@ -1,7 +1,8 @@
 import React from 'react'
 import "./about.css"
-import { Link } from 'react-router-dom'
+import {scrollToSection} from "../header/Header"
 function About() {
+ 
   return (
     <section className="about">
         <h1 className="aboutHeading">About Me</h1>
@@ -17,7 +18,7 @@ function About() {
                     <br /> <br />
                     My vision is to contribute to making the world a better place. As everything around us evolves, it's our turn to create meaningful innovations that positively impact lives.
                 </p>
-                <Link className='button' to='#contact'>have A Project? <i className="fa-solid fa-lightbulb"></i> </Link>
+                <a className='button' href={`#contact`} onClick={(e) => {e.preventDefault(); scrollToSection("contact")}}> have A Project? <i className="fa-solid fa-lightbulb"></i> </a>
             </div>
 
           <div class="circle-container">

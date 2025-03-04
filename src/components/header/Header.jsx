@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "./header.css"
 import MYPIC from "../../assets/MYPIC.jpeg"
-import { Link } from 'react-router-dom';
+
+export const scrollToSection = (id) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 function Header() {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
@@ -17,6 +24,7 @@ function Header() {
     }
   }, [darkMode]);
 
+  
   return (
     <header>
       <div className="DLMode" onClick={() => setDarkMode((prev) => !prev)}>
@@ -31,7 +39,7 @@ function Header() {
             <div className="headName"><h1>Mohamed Saeed</h1><i className="fa-solid fa-handshake"></i></div>
             <h3><span>───── </span> Frontend Developer</h3>
             <p>I transform ideas into smooth, interactive interfaces, design clean and fast user experiences, and build modern web interfaces</p>
-            <Link className='button' to="#projects">See Projects<i className="fa-solid fa-hand-wave"></i></Link>
+            <a className='button' href={`#prjects`} onClick={(e) => {e.preventDefault(); scrollToSection("projects")}}>See Projects<i className="fa-solid fa-hand-wave"></i></a>
         </div>
         <div className="image">
             <img src={MYPIC} alt="" />
