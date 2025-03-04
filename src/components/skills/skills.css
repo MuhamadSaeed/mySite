@@ -1,0 +1,38 @@
+.skills {
+    padding: var(--padding);
+    text-align: center;
+}
+.skills .skillsHeading{
+    text-align: center;
+    font-size: 60px;
+    color: var(--black);
+    opacity: .6;
+}
+.skills .paraSkills {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+.skills .skills1, .skills2, .skills3{
+    margin: 30px 0 22px 0;
+}
+.skills .skill{
+    display: inline-block;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: var(--black);
+}
+.skills .skill:not(:first-child) {
+    margin-left: 22px;
+}
+.skills .skill i{
+    font-style: italic;
+    margin-right: 6px;
+}
+.skills hr {
+    width: 200px;
+    margin: 0 auto;
+}

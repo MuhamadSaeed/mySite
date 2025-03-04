@@ -1,0 +1,73 @@
+.services {
+    padding: var(--padding);    
+    position: relative;
+}
+.services .servicesHeading{
+    text-align: center;
+    font-size: 60px;
+    color: var(--black);
+    opacity: .6;
+}
+.services .paraServices{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    margin-bottom: 20px;
+    color: var(--black);
+    color: var(--black);
+}
+.services .boxs{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: var(--black);
+}
+.services .service {
+    background-color: var(--white);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.services .service > i{
+    font-size: 32px;
+}
+.services .service h1 {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+.services .service a{
+    bottom: 30px;
+    color: var(--black);
+}
+.services .over {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000096;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    cursor: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .moreDetails {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.services .moreDetails .fa-x{
+    font-size: 22px;
+    cursor: pointer;
+}
+.services .moreDetails h1 {
+    margin: 18px 0 12px 0;
+}
+.services .moreDetails p{
+    margin-bottom: 6px;
+}
