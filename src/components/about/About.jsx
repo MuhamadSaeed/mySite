@@ -17,7 +17,7 @@ function About() {
                     <br /> <br />
                     My vision is to contribute to making the world a better place. As everything around us evolves, it's our turn to create meaningful innovations that positively impact lives.
                 </p>
-                <a className='button' href='#contact'>have A Project? <i className="fa-solid fa-lightbulb"></i> </a>
+                <Link className='button' to='#contact'>have A Project? <i className="fa-solid fa-lightbulb"></i> </Link>
             </div>
 
           <div class="circle-container">

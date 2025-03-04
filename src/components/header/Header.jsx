@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./header.css"
 import MYPIC from "../../assets/MYPIC.jpeg"
+import { Link } from 'react-router-dom';
 function Header() {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
@@ -30,7 +31,7 @@ function Header() {
             <div className="headName"><h1>Mohamed Saeed</h1><i className="fa-solid fa-handshake"></i></div>
             <h3><span>───── </span> Frontend Developer</h3>
             <p>I transform ideas into smooth, interactive interfaces, design clean and fast user experiences, and build modern web interfaces</p>
-            <a className='button' href="#projects">See Projects<i className="fa-solid fa-hand-wave"></i></a>
+            <Link className='button' to="#projects">See Projects<i className="fa-solid fa-hand-wave"></i></Link>
         </div>
         <div className="image">
             <img src={MYPIC} alt="" />
