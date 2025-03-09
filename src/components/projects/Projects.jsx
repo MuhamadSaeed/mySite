@@ -9,6 +9,7 @@ import IMG6 from "../../assets/P6.png"
 import IMG7 from "../../assets/P7.png"
 import IMG8 from "../../assets/P8.png"
 import IMG9 from "../../assets/P9.png"
+import IMG10 from "../../assets/P10.png"
 
 function Projects() {
     const [activeLink, setActiveLink] = useState("css")
@@ -28,6 +29,13 @@ function Projects() {
             name: "Bootstrap Page",
             gitubLink: "https://github.com/MuhamadSaeed/Bootstrap-Project", 
             liveDemoLink: "https://muhamadsaeed.github.io/Bootstrap-Project/", 
+            tool: "all css bootstrap",
+        },
+        {
+            photo: IMG10, 
+            name: "Medical Site",
+            gitubLink: "https://github.com/MuhamadSaeed/mega-task-6", 
+            liveDemoLink: "https://muhamadsaeed.github.io/mega-task-6/", 
             tool: "all css bootstrap",
         },
         {
