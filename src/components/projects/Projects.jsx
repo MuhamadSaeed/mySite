@@ -10,6 +10,8 @@ import IMG7 from "../../assets/P7.png"
 import IMG8 from "../../assets/P8.png"
 import IMG9 from "../../assets/P9.png"
 import IMG10 from "../../assets/P10.png"
+import IMG11 from "../../assets/P11.png"
+import IMG12 from "../../assets/P12.png"
 
 function Projects() {
     const [activeLink, setActiveLink] = useState("css")
@@ -86,6 +88,20 @@ function Projects() {
             gitubLink: "https://github.com/MuhamadSaeed/react-dashboard", 
             liveDemoLink: "https://reacct-dashboard.netlify.app/", 
             tool: "all react",
+        },
+        {
+            photo: IMG11, 
+            name: "React pharmacy site",
+            gitubLink: "https://github.com/MuhamadSaeed/pharmacy-site", 
+            liveDemoLink: "https://pharmacym.netlify.app/", 
+            tool: "all react",
+        },
+        {
+            photo: IMG12, 
+            name: "CRUD project",
+            gitubLink: "https://github.com/MuhamadSaeed/mega-task-JS-3", 
+            liveDemoLink: "https://muhamadsaeed.github.io/mega-task-JS-3/", 
+            tool: "all javascript",
         },
     ]
 
