@@ -46,10 +46,11 @@ header {
     margin-bottom: 35px;
 }
 header .image img {
-    width: 300px;
+    width: 220px;
     height: auto;
     animation: imgInimation 8s ease-in-out infinite ;
     box-shadow: 0 0 0 9px var(--bg-color);
+    transform: rotate(-2deg);
 }
 @keyframes imgInimation {
     0% {
