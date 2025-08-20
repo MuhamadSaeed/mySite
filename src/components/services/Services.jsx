@@ -61,9 +61,8 @@ function Services() {
                                <h1>Building Functional Websites from A to Z</h1>
                                 <p><i className="fa-solid fa-check-double"></i> I create websites that actually serve a purpose, not just good looking pages.</p>
                                 <p><i className="fa-solid fa-check-double"></i> I can build e-commerce pages, landing pages, blogs, dashboards, and more.</p>
-                                <p><i className="fa-solid fa-check-double"></i> I add real features like login systems, search bars, product filters, forms. etc</p>
                                 <p><i className="fa-solid fa-check-double"></i> I care about organizing the project from the start to make it easy to grow later.</p>
-                                <p><i className="fa-solid fa-check-double"></i> Whether it’s static or dynamic, I build with clear goals and useful results.</p>
+                                <p><i className="fa-solid fa-check-double"></i> Whether it`s static or dynamic, I build with clear goals and useful results.</p>
                             </div>
                         </div>
                     )}

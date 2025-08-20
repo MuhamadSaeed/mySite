@@ -47,7 +47,7 @@ header {
 }
 header .image img {
     width: 220px;
-    height: auto;
+    height: 310px;
     animation: imgInimation 8s ease-in-out infinite ;
     box-shadow: 0 0 0 9px var(--bg-color);
     transform: rotate(-2deg);

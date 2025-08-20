@@ -138,9 +138,16 @@ li {
   .about .infoAbout h1 {
     font-size: 18px;
   } 
+  .rotating-circle {
+    animation: none;
+  }
   /* skills */
   .skills .skill {
     font-size: 14px;
+  }
+  /* educ */
+  .timeline-content p {
+    font-size: 0.75rem;
   }
   /* services */
   .services .service {

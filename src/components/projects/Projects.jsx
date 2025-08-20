@@ -12,9 +12,10 @@ import IMG9 from "../../assets/P9.png"
 import IMG10 from "../../assets/P10.png"
 import IMG11 from "../../assets/P11.png"
 import IMG12 from "../../assets/P12.png"
+import IMG13 from "../../assets/P13.png"
 
 function Projects() {
-    const [activeLink, setActiveLink] = useState("css")
+    const [activeLink, setActiveLink] = useState("react")
     const [searchVal, setSearchVal] = useState("")
     const [finalResul, setFinalResult] = useState([])
     const [showDetailsIndex, setShowDetailsIndex] = useState(null);
@@ -116,10 +117,18 @@ const Projects = [
     tool: "all javascript",
     details: "A CRUD operations project using vanilla JavaScript and localStorage for data persistence. Frontend only."
   },
+  {
+    photo: IMG13,
+    name: "e-commerce project",
+    gitubLink: "https://github.com/MuhamadSaeed/ecommerce",
+    liveDemoLink: "https://github.com/MuhamadSaeed/ecommerce",
+    tool: "all full-stack",
+    details: "A simple full-stack e-commerce project built with a frontend (Next.js) and a backend (PHP & MySQL). The application allows users to browse products, view details, and add them to the cart, while the admin can manage products through APIs (add, update, delete). The backend is connected to a MySQL database and provides RESTful APIs consumed by the frontend"
+  },
 ]
 
 
-    const Links = ["all", "css","sass", "bootstrap", "javascript", "react"]
+    const Links = ["all", "css","sass", "bootstrap", "javascript", "react", "full-stack"]
 
     const handleSearch = (e) => {
         e.preventDefault();

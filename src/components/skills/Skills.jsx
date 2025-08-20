@@ -24,9 +24,6 @@ function Skills() {
   const tools = [
     { name: "Git", desc: "Tracking changes and version control." },
     { name: "GitHub", desc: "Storing and collaborating on code." },
-    { name: "Vite", desc: "Fast build tool for modern web apps." },
-    { name: "NPM", desc: "Managing libraries and tools." },
-    { name: "Postman", desc: "Testing and debugging APIs." },
   ];
 
   return (

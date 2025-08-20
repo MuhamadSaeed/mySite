@@ -24,7 +24,7 @@ function Education() {
                 <p>
                 4-week internship (120 hours). I learned the fundamentals of front-end development and explored the back-end basics using PHP, MySQL, and Laravel.  
                 During the internship, I built two CRUD-based admin dashboards: the first using native PHP, and the second using Laravel.  
-                The dashboard allows admin users to manage training program data — including viewing, adding, editing, and deleting users and courses. Access control was implemented to ensure only admins can perform these actions.
+                The dashboard allows admin users to manage training program data, including viewing, adding, editing, and deleting users and courses. Access control was implemented to ensure only admins can perform these actions.
                 </p>
             </div>
             </div>
@@ -37,7 +37,7 @@ function Education() {
                 <p>
                 Completed Udacity’s Web Development Nanodegree, where I learned the basics of the internet, HTML, CSS, Bootstrap, and JavaScript. I built several small projects, including landing pages and interactive components.
                 <br />
-                My mid-level project was a weather application that uses external APIs to fetch real-time weather data based on user input. It showed city temperatures, weather conditions, and icons based on the forecast, and gave me my first hands-on experience with asynchronous JavaScript and working with APIs.
+                My mid-level project was a weather application that uses external APIs to fetch real-time weather data based on user input. It showed city temperatures and weather conditions
                 </p>
             </div>
             </div>

@@ -46,11 +46,11 @@ function ContactPage() {
             <div className="ways">
                 <div className="way">
                     <i className="fa-solid fa-phone"></i>
-                    <h4>+20 1020453180</h4>
+                    <h4>+20 1080698745</h4>
                 </div>
                 <div className="way">
                     <i className="fa-solid fa-envelope"></i>
-                    <h4>muuhammad.said <br /> @gmail.com</h4>
+                    <h4>mohamed0saeed000 <br /> @gmail.com</h4>
                 </div>
                 <div className="way">
                     <i className="fa-solid fa-location-dot"></i>
