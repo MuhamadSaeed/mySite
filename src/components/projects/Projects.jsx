@@ -13,9 +13,10 @@ import IMG10 from "../../assets/P10.png"
 import IMG11 from "../../assets/P11.png"
 import IMG12 from "../../assets/P12.png"
 import IMG13 from "../../assets/P13.png"
+import IMG14 from "../../assets/P14.png"
 
 function Projects() {
-    const [activeLink, setActiveLink] = useState("react")
+    const [activeLink, setActiveLink] = useState("all")
     const [searchVal, setSearchVal] = useState("")
     const [finalResul, setFinalResult] = useState([])
     const [showDetailsIndex, setShowDetailsIndex] = useState(null);
@@ -23,7 +24,7 @@ function Projects() {
 const Projects = [
   {
     photo: IMG1,
-    name: "Sass Page",
+    name: "landing Page",
     gitubLink: "https://github.com/MuhamadSaeed/SASS-Project",
     liveDemoLink: "https://muhamadsaeed.github.io/SASS-Project/",
     tool: "all Sass css",
@@ -119,16 +120,24 @@ const Projects = [
   },
   {
     photo: IMG13,
-    name: "e-commerce project",
+    name: "e-commerce project ",
     gitubLink: "https://github.com/MuhamadSaeed/ecommerce",
     liveDemoLink: "https://github.com/MuhamadSaeed/ecommerce",
-    tool: "all full-stack",
+    tool: "all full-stack next",
     details: "A simple full-stack e-commerce project built with a frontend (Next.js) and a backend (PHP & MySQL). The application allows users to browse products, view details, and add them to the cart, while the admin can manage products through APIs (add, update, delete). The backend is connected to a MySQL database and provides RESTful APIs consumed by the frontend"
+  },
+  {
+    photo: IMG14,
+    name: "Social Media project",
+    gitubLink: "https://github.com/MuhamadSaeed/social-media",
+    liveDemoLink: "https://social-media-sigma-smoky.vercel.app/",
+    tool: "all full-stack next",
+    details: " "
   },
 ]
 
 
-    const Links = ["all", "css","sass", "bootstrap", "javascript", "react", "full-stack"]
+    const Links = ["all", "css","sass", "bootstrap", "javascript", "react", "next", "full-stack"]
 
     const handleSearch = (e) => {
         e.preventDefault();

@@ -7,16 +7,16 @@ html {
   scroll-behavior: smooth;
 }
 :root {
-  --bg-color: #D0DDD0;
+  --bg-color: #4a4a4a;
   --text-color: #FFDE4D;
-  --white: #fff;
-  --black: #3D3D3D;
+  --white: #222222;
+  --black: #dfdfdf;
   --padding: 100px;
 } 
 .dark-mode {
-  --bg-color: #4a4a4a;
-  --black: #dfdfdf;
-  --white: #222222;
+  --bg-color: #D0DDD0;
+  --black: #3D3D3D;
+  --white: #fff;
 }
 * {
   margin: 0;
@@ -151,7 +151,7 @@ li {
   }
   /* services */
   .services .service {
-    width: 250px;
+    width: 320px;
     height: fit-content;
     padding: 16px;
     

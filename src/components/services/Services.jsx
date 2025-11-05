@@ -82,10 +82,8 @@ function Services() {
                                 }}></i>
                                <h1>Improving and Updating Existing Websites</h1>
                                 <p><i className="fa-solid fa-check-double"></i> I can fix layout or design issues in your current website.</p>
-                                <p><i className="fa-solid fa-check-double"></i> I make your site more mobile friendly and easier to use.</p>
                                 <p><i className="fa-solid fa-check-double"></i> I can add missing parts or sections you need.</p>
                                 <p><i className="fa-solid fa-check-double"></i> I improve loading speed and clean up the code to make future edits easier.</p>
-                                <p><i className="fa-solid fa-check-double"></i> I also connect your site to tools like WhatsApp, Google Maps, or custom forms. etc</p>
                             </div>
                         </div>
                     )}

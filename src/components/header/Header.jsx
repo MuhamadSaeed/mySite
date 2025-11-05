@@ -28,7 +28,7 @@ function Header() {
   return (
     <header>
       <div className="DLMode" onClick={() => setDarkMode((prev) => !prev)}>
-      <i className={darkMode === true?  "fa-solid fa-moon" : "fa-solid fa-sun"} style={darkMode === true? {color: "white"} : {color: "var(--text-color)"}} ></i>
+      <i className={darkMode === true?  "fa-solid fa-moon" : "fa-solid fa-sun"} style={darkMode === true? {color: "var(--text-color)"} : {color: "white"}} ></i>
       </div>
         <ul className="headerLinks">
             <li> <a target="_blank" href="https://github.com/MuhamadSaeed"><i className="fa-brands fa-github"></i></a> </li>
@@ -38,7 +38,7 @@ function Header() {
         <div className="headerInfo">
             <div className="headName"><h1>Mohamed Saeed</h1><i className="fa-solid fa-handshake"></i></div>
             <h3><span>───── </span> Frontend Developer</h3>
-            <p>Front-end developer focused on building simple and interactive web applications using React.js, Next.js, TypeScript, and tools like Tailwind CSS.</p>
+            <p>Front end developer focused on building simple and interactive web applications using React.js, Next.js</p>
             <a className='button' href={`#prjects`} onClick={(e) => {e.preventDefault(); scrollToSection("projects")}}>See Projects<i className="fa-solid fa-hand-wave"></i></a>
         </div>
         <div className="image">

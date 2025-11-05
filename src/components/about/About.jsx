@@ -6,15 +6,13 @@ function About() {
   return (
     <section className="about">
         <h1 className="aboutHeading">About Me</h1>
-        <p className='paraAbout'>A Web developer</p>
-        <div className="flexDiv">
+        <div className="flexDiv" style={{padding: "50px"}}>
 
-            <div className="infoAbout">
+            <div className="infoAbout" >
                 <p>I'm a front-end web developer. I started learning programming in 2020, beginning with the basics like programming fundamentals, OOP, and data structures and algorithms. In 2022, I moved into front-end development, learning HTML, CSS, and JavaScript, and built more than 20 projects to practice. After that, I started using Bootstrap and Sass to make styling more organized. Then in 2023, I began working with React.js, Next.js, and Tailwind CSS to build better websites more efficiently.
                   <br /> <br />
                     Recently, I started learning the basics of PHP and MySQL, not because I want to become a back-end developer, but to understand how the full website works and how everything connects behind the scenes.
-                  <br /> <br />
-                  So far, I’ve built over 60 front-end projects, including personal websites, landing pages, and e-commerce stores. I focus on writing clear and simple code, and I try to make the websites easy to use for both the user and the developer.
+                  
                 </p>
                 <a className='button' href={`#contact`} onClick={(e) => {e.preventDefault(); scrollToSection("contact")}}> have A Project? <i className="fa-solid fa-lightbulb"></i> </a>
             </div>
