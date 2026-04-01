@@ -1,22 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import "./projects.css"
-import IMG1 from "../../assets/P1.png"
-import IMG2 from "../../assets/P2.png"
-import IMG3 from "../../assets/P3.png"
-import IMG4 from "../../assets/P4.png"
+import IMG1 from "../../assets/P15.png"
+import IMG2 from "../../assets/P16.png"
 import IMG5 from "../../assets/P5.png"
 import IMG6 from "../../assets/P6.png"
 import IMG7 from "../../assets/P7.png"
 import IMG8 from "../../assets/P8.png"
 import IMG9 from "../../assets/P9.png"
-import IMG10 from "../../assets/P10.png"
 import IMG11 from "../../assets/P11.png"
-import IMG12 from "../../assets/P12.png"
 import IMG13 from "../../assets/P13.png"
 import IMG14 from "../../assets/P14.png"
 
 function Projects() {
-    const [activeLink, setActiveLink] = useState("all")
+    const [activeLink, setActiveLink] = useState("next")
     const [searchVal, setSearchVal] = useState("")
     const [finalResul, setFinalResult] = useState([])
     const [showDetailsIndex, setShowDetailsIndex] = useState(null);
@@ -24,43 +20,19 @@ function Projects() {
 const Projects = [
   {
     photo: IMG1,
-    name: "landing Page",
-    gitubLink: "https://github.com/MuhamadSaeed/SASS-Project",
-    liveDemoLink: "https://muhamadsaeed.github.io/SASS-Project/",
-    tool: "all Sass css",
-    details: "I used Sass (variables, nesting, mixins, etc.) to build this simple landing page for a design service. Created in 2022."
+    name: "Point of Sale (POS) System",
+    gitubLink: "https://github.com/MuhamadSaeed/Point-of-sale-system",
+    liveDemoLink: "https://github.com/MuhamadSaeed/Point-of-sale-system",
+    tool: "all full-stack next",
+    details: "A robust Full-Stack POS system designed to streamline business operations. Built with Next.js (Laravel on the backend), it handles inventory, sales tracking, and product management with a high focus on performance and accuracy."
   },
   {
     photo: IMG2,
-    name: "Bootstrap Page",
-    gitubLink: "https://github.com/MuhamadSaeed/Bootstrap-Project",
-    liveDemoLink: "https://muhamadsaeed.github.io/Bootstrap-Project/",
-    tool: "all css bootstrap",
-    details: "I used Bootstrap to design this website quickly using built-in components. It’s for a web/design company and was built in 2022."
-  },
-  {
-    photo: IMG10,
-    name: "Medical Site",
-    gitubLink: "https://github.com/MuhamadSaeed/mega-task-6",
-    liveDemoLink: "https://muhamadsaeed.github.io/mega-task-6/",
-    tool: "all css bootstrap",
-    details: "A medical site made using Bootstrap and CSS, created in 2022 for a medical business."
-  },
-  {
-    photo: IMG3,
-    name: "Landing Page",
-    gitubLink: "https://github.com/MuhamadSaeed/html-css-js-project",
-    liveDemoLink: "https://muhamadsaeed.github.io/html-css-js-project",
-    tool: "all javascript",
-    details: "A personal portfolio landing page made with vanilla JavaScript. It includes sections like projects, info, and contact. Created in 2022."
-  },
-  {
-    photo: IMG4,
-    name: "Simple Protfolio",
-    gitubLink: "https://github.com/MuhamadSaeed/mega-task-5",
-    liveDemoLink: "https://muhamadsaeed.github.io/mega-task-5/",
-    tool: "all css",
-    details: "A very simple personal portfolio built using only HTML and CSS. Created in 2022."
+    name: "Nutrivex AI Nutritionist",
+    gitubLink: "https://github.com/MuhamadSaeed/nutrivex",
+    liveDemoLink: "https://nutrivex.vercel.app",
+    tool: "all full-stack next",
+    details: "A Full-Stack AI assistant designed to provide personalized nutrition and keto coaching. Built with Next.js and Firebase"
   },
   {
     photo: IMG5,
@@ -111,14 +83,6 @@ const Projects = [
     details: "Pharmacy e-commerce site built with React. It includes product info, cart, and fetches data from an API."
   },
   {
-    photo: IMG12,
-    name: "CRUD project",
-    gitubLink: "https://github.com/MuhamadSaeed/mega-task-JS-3",
-    liveDemoLink: "https://muhamadsaeed.github.io/mega-task-JS-3/",
-    tool: "all javascript",
-    details: "A CRUD operations project using vanilla JavaScript and localStorage for data persistence. Frontend only."
-  },
-  {
     photo: IMG13,
     name: "e-commerce project ",
     gitubLink: "https://github.com/MuhamadSaeed/ecommerce",
@@ -132,12 +96,11 @@ const Projects = [
     gitubLink: "https://github.com/MuhamadSaeed/social-media",
     liveDemoLink: "https://social-media-sigma-smoky.vercel.app/",
     tool: "all full-stack next",
-    details: " "
+    details: " A full-stack social media application built with Next.js. The app allows users to create accounts, post updates, and interact through likes and comments."
   },
 ]
 
-
-    const Links = ["all", "css","sass", "bootstrap", "javascript", "react", "next", "full-stack"]
+    const Links = ["react", "next", "full-stack"]
 
     const handleSearch = (e) => {
         e.preventDefault();
@@ -210,3 +173,4 @@ const Projects = [
 }
 
 export default Projects
+

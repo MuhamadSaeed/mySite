@@ -1,10 +1,10 @@
-.education-section {
+.experience-section {
     padding: var(--padding);
     background-color: var(--white);
     color: var(--black);
 }
 
-.education-section .section-title {
+.experience-section .section-title {
     text-align: center;
     font-size: 45px;
     color: var(--black);
@@ -12,7 +12,7 @@
     margin-bottom: 60px;
 }
 
-.education-section .timeline {
+.experience-section .timeline {
     position: relative;
     margin: 0 auto;
     padding-left: 30px;
@@ -20,18 +20,18 @@
     border-left: 2px solid var(--bg-color);
 }
 
-.education-section .timeline-item {
+.experience-section .timeline-item {
     position: relative;
     margin-bottom: 50px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.education-section .timeline-item:hover {
+.experience-section .timeline-item:hover {
     transform: translateX(8px);
     opacity: 1;
 }
 
-.education-section .timeline-dot {
+.experience-section .timeline-dot {
     position: absolute;
     left: -10px;
     top: 6px;
@@ -43,16 +43,16 @@
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.education-section .timeline-item:hover .timeline-dot {
+.experience-section .timeline-item:hover .timeline-dot {
     box-shadow: 0 0 8px rgba(255, 222, 77, 0.5);
     transform: scale(1.2);
 }
 
-.education-section .timeline-content {
+.experience-section .timeline-content {
     padding-left: 20px;
 }
 
-.education-section .timeline-title {
+.experience-section .timeline-title {
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0 0 5px 0;
@@ -60,11 +60,11 @@
     transition: color 0.3s ease;
 }
 
-.education-section .timeline-item:hover .timeline-title {
+.experience-section .timeline-item:hover .timeline-title {
     color: var(--text-color);
 }
 
-.education-section .timeline-place {
+.experience-section .timeline-place {
     font-size: 0.9rem;
     color: gray;
     display: block;
@@ -72,17 +72,17 @@
     transition: color 0.3s ease;
 }
 
-.education-section .timeline-item:hover .timeline-place {
+.experience-section .timeline-item:hover .timeline-place {
     color: var(--text-color);
 }
 
-.education-list {
+.experience-list {
     margin: 0;
     padding-left: 20px;
     list-style-type: disc;
 }
 
-.education-list li {
+.experience-list li {
     margin-bottom: 10px;
     font-size: 0.95rem;
     line-height: 1.6;
@@ -90,89 +90,88 @@
     transition: color 0.3s ease;
 }
 
-.education-section .timeline-item:hover .education-list li {
+.experience-section .timeline-item:hover .experience-list li {
     color: var(--black);
 }
 
 /* Responsive Design */
 @media (max-width: 991.98px) {
-    .education-section {
+    .experience-section {
         padding: 70px 30px !important;
     }
 }
 
 @media (max-width: 767.98px) {
-    .education-section .section-title {
+    .experience-section .section-title {
         font-size: 36px;
         margin-bottom: 40px;
     }
 
-    .education-section .timeline {
+    .experience-section .timeline {
         padding-left: 20px;
     }
 
-    .education-section .timeline-item {
+    .experience-section .timeline-item {
         margin-bottom: 35px;
     }
 
-    .education-section .timeline-content {
+    .experience-section .timeline-content {
         padding-left: 15px;
     }
 
-    .education-section .timeline-title {
+    .experience-section .timeline-title {
         font-size: 1.1rem;
     }
 
-    .education-list li {
+    .experience-list li {
         font-size: 0.9rem;
     }
 }
 
 @media (max-width: 575.98px) {
-    .education-section {
+    .experience-section {
         padding: 30px 15px !important;
     }
 
-    .education-section .section-title {
+    .experience-section .section-title {
         font-size: 28px;
         margin-bottom: 30px;
     }
 
-    .education-section .timeline {
+    .experience-section .timeline {
         padding-left: 15px;
         max-width: 100%;
     }
 
-    .education-section .timeline-dot {
+    .experience-section .timeline-dot {
         left: -8px;
         width: 14px;
         height: 14px;
         border-width: 1px;
     }
 
-    .education-section .timeline-content {
+    .experience-section .timeline-content {
         padding-left: 12px;
     }
 
-    .education-section .timeline-title {
+    .experience-section .timeline-title {
         font-size: 1rem;
         margin-bottom: 3px;
     }
 
-    .education-section .timeline-place {
+    .experience-section .timeline-place {
         font-size: 0.85rem;
         margin-bottom: 10px;
     }
 
-    .education-list {
+    .experience-list {
         padding-left: 18px;
         margin: 0;
     }
 
-    .education-list li {
+    .experience-list li {
         font-size: 0.85rem;
         margin-bottom: 8px;
         line-height: 1.5;
     }
 }
-
